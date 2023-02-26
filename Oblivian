@@ -50,6 +50,7 @@ getgenv().Aiming = {
     SelectedPart = nil,
 
     TargetPart = {getgenv().Oblivian.Silent.HitParts},
+    TargetPart2 = {getgenv().Oblivian.SoftAim.HitPart}
 
     Ignored = {
         Teams = {
@@ -426,6 +427,7 @@ function Aiming.GetClosestPlayerToCursor()
     -- // End
     Aiming.Selected = ClosestPlayer
     Aiming.SelectedPart = TargetPart
+    Aiming.SelectedPart2 = TargetPart2
 end
 
 -- // Heartbeat Function
