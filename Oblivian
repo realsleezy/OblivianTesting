@@ -47,7 +47,8 @@ getgenv().Aiming = {
     HitChance = getgenv().Oblivian.Silent.HitChance,
 
     Selected = nil,
-    SelectedPart = nil,
+    SelectedPart = TargetPart,
+    SelectedPart2 = TargetPart2
 
     TargetPart = {getgenv().Oblivian.Silent.HitParts},
     TargetPart2 = {getgenv().Oblivian.SoftAim.HitPart}
